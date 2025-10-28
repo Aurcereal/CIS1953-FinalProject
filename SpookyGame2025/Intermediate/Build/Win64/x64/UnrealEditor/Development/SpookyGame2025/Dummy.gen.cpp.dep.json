@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\explo\\onedrive\\documents\\github\\cis1953\\cis1953-finalproject\\spookygame2025\\intermediate\\build\\win64\\unrealeditor\\inc\\spookygame2025\\uht\\dummy.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\explo\\onedrive\\documents\\github\\cis1953\\cis1953-finalproject\\spookygame2025\\intermediate\\build\\win64\\x64\\spookygame2025editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\explo\\onedrive\\documents\\github\\cis1953\\cis1953-finalproject\\spookygame2025\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\spookygame2025\\definitions.spookygame2025.h",
+            "c:\\users\\explo\\onedrive\\documents\\github\\cis1953\\cis1953-finalproject\\spookygame2025\\source\\spookygame2025\\dummy.h",
+            "c:\\users\\explo\\onedrive\\documents\\github\\cis1953\\cis1953-finalproject\\spookygame2025\\intermediate\\build\\win64\\unrealeditor\\inc\\spookygame2025\\uht\\dummy.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

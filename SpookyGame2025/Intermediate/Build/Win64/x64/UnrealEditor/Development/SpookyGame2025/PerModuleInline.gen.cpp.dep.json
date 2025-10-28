@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\explo\\onedrive\\documents\\github\\cis1953\\cis1953-finalproject\\spookygame2025\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\spookygame2025\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\explo\\onedrive\\documents\\github\\cis1953\\cis1953-finalproject\\spookygame2025\\intermediate\\build\\win64\\x64\\spookygame2025editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\explo\\onedrive\\documents\\github\\cis1953\\cis1953-finalproject\\spookygame2025\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\spookygame2025\\definitions.spookygame2025.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
