@@ -1,5 +1,9 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.SpookyGame2025.gen.cpp.obj": [
+			"Dummy.gen.cpp.obj",
+			"SpookyGame2025.init.gen.cpp.obj"
+		]
 	}
 }

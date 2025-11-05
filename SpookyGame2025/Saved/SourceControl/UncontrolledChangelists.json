@@ -6,7 +6,16 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Content/Maps/MP_Main.umap",
-				"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Content/Blueprints/BP_Dummy.uasset"
+				"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Content/Blueprints/BP_Dummy.uasset",
+				"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Content/Input/Actions/IA_Interact.uasset",
+				"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Content/Blueprints/BPC_DialogueInteractor.uasset",
+				"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Content/Input/IMC_Default.uasset",
+				"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Content/Blueprints/BPC_DialogueInteractable.uasset",
+				"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Content/Blueprints/BPI_Character.uasset",
+				"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Content/Blueprints/BP_TestDialogueInteractable.uasset",
+				"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Content/Input/IMC_InDialogue.uasset",
+				"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Content/Input/Actions/IA_DialogueProgress.uasset"
 			]
 		}
 	]

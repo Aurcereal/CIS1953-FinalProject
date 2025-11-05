@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SpookyGame2025.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Intermediate/Build/Win64/x64/SpookyGame2025Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpookyGame2025/Dummy.gen.cpp.obj"
+"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpookyGame2025/SpookyGame2025.init.gen.cpp.obj"
+"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpookyGame2025/Dummy.cpp.obj"
+"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpookyGame2025/SpookyGame2025.cpp.obj"
+"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpookyGame2025/PerModuleInline.gen.cpp.obj"
+"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpookyGame2025/Default.rc2.res"
+/OUT:"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Intermediate/Build/Win64/x64/UnrealEditor/Development/SpookyGame2025/UnrealEditor-SpookyGame2025.lib"
