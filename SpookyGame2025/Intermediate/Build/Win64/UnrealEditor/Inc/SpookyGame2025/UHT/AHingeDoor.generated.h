@@ -17,7 +17,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class AAHingeDoor **************************************************************
-#define FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execLockDoor); \
 	DECLARE_FUNCTION(execCloseDoor); \
 	DECLARE_FUNCTION(execOpenDoor);
@@ -25,7 +25,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 SPOOKYGAME2025_API UClass* Z_Construct_UClass_AAHingeDoor_NoRegister();
 
-#define FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAHingeDoor(); \
 	friend struct Z_Construct_UClass_AAHingeDoor_Statics; \
@@ -33,10 +33,11 @@ private: \
 	friend SPOOKYGAME2025_API UClass* Z_Construct_UClass_AAHingeDoor_NoRegister(); \
 public: \
 	DECLARE_CLASS2(AAHingeDoor, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/SpookyGame2025"), Z_Construct_UClass_AAHingeDoor_NoRegister) \
-	DECLARE_SERIALIZER(AAHingeDoor)
+	DECLARE_SERIALIZER(AAHingeDoor) \
+	virtual UObject* _getUObject() const override { return const_cast<AAHingeDoor*>(this); }
 
 
-#define FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_13_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AAHingeDoor(AAHingeDoor&&) = delete; \
 	AAHingeDoor(const AAHingeDoor&) = delete; \
@@ -46,13 +47,13 @@ public: \
 	NO_API virtual ~AAHingeDoor();
 
 
-#define FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_9_PROLOG
-#define FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_12_GENERATED_BODY \
+#define FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_10_PROLOG
+#define FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_12_INCLASS_NO_PURE_DECLS \
-	FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_12_ENHANCED_CONSTRUCTORS \
+	FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

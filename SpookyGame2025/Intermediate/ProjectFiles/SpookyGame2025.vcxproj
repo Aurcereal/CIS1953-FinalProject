@@ -252,15 +252,24 @@
     <None Include="..\..\SpookyGame2025.uproject"/>
     <None Include="..\..\Source\SpookyGame2025.Target.cs"/>
     <None Include="..\..\Source\SpookyGame2025Editor.Target.cs"/>
+    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
+    <ClCompile Include="..\..\Source\SpookyGame2025\AHingeDoor.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpookyGame2025\AHingeDoor.h"/>
     <ClCompile Include="..\..\Source\SpookyGame2025\Dummy.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\SpookyGame2025\Dummy.h"/>
+    <ClCompile Include="..\..\Source\SpookyGame2025\Interactable.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpookyGame2025\Interactable.h"/>
     <None Include="..\..\Source\SpookyGame2025\SpookyGame2025.Build.cs"/>
     <ClCompile Include="..\..\Source\SpookyGame2025\SpookyGame2025.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

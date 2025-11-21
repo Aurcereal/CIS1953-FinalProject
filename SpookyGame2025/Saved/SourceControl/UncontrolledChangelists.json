@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/kdngc/OneDrive/Documents/HW/1953/CIS1953-FinalProject/SpookyGame2025/Content/Blueprints/Dialogue/BPC_DialogueInteractor.uasset",
+				"C:/Users/kdngc/OneDrive/Documents/HW/1953/CIS1953-FinalProject/SpookyGame2025/Content/Blueprints/BP_Door.uasset",
+				"C:/Users/kdngc/OneDrive/Documents/HW/1953/CIS1953-FinalProject/SpookyGame2025/Content/Maps/MP_Main.umap",
+				"C:/Users/kdngc/OneDrive/Documents/HW/1953/CIS1953-FinalProject/SpookyGame2025/Content/Models/Door.uasset",
+				"C:/Users/kdngc/OneDrive/Documents/HW/1953/CIS1953-FinalProject/SpookyGame2025/Content/Models/Frame.uasset",
+				"C:/Users/kdngc/OneDrive/Documents/HW/1953/CIS1953-FinalProject/SpookyGame2025/Content/Models/Handles.uasset",
 				"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Content/Maps/MP_Main.umap",
 				"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Content/Blueprints/BP_Dummy.uasset",
 				"C:/Users/explo/OneDrive/Documents/GitHub/CIS1953/CIS1953-FinalProject/SpookyGame2025/Content/Input/Actions/IA_Interact.uasset",

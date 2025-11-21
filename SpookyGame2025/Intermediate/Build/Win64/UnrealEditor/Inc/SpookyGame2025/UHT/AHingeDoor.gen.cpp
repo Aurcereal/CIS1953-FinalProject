@@ -15,6 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeAHingeDoor() {}
 ENGINE_API UClass* Z_Construct_UClass_AActor();
 SPOOKYGAME2025_API UClass* Z_Construct_UClass_AAHingeDoor();
 SPOOKYGAME2025_API UClass* Z_Construct_UClass_AAHingeDoor_NoRegister();
+SPOOKYGAME2025_API UClass* Z_Construct_UClass_UInteractable_NoRegister();
 UPackage* Z_Construct_UPackage__Script_SpookyGame2025();
 // ********** End Cross Module References **********************************************************
 
@@ -207,6 +208,7 @@ struct Z_Construct_UClass_AAHingeDoor_Statics
 		{ &Z_Construct_UFunction_AAHingeDoor_OpenDoor, "OpenDoor" }, // 2216334846
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
+	static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AAHingeDoor>::IsAbstract,
 	};
@@ -217,6 +219,9 @@ UObject* (*const Z_Construct_UClass_AAHingeDoor_Statics::DependentSingletons[])(
 	(UObject* (*)())Z_Construct_UPackage__Script_SpookyGame2025,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AAHingeDoor_Statics::DependentSingletons) < 16);
+const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AAHingeDoor_Statics::InterfaceParams[] = {
+	{ Z_Construct_UClass_UInteractable_NoRegister, (int32)VTABLE_OFFSET(AAHingeDoor, IInteractable), false },  // 2462738456
+};
 const UECodeGen_Private::FClassParams Z_Construct_UClass_AAHingeDoor_Statics::ClassParams = {
 	&AAHingeDoor::StaticClass,
 	"Engine",
@@ -224,11 +229,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AAHingeDoor_Statics::Cl
 	DependentSingletons,
 	FuncInfo,
 	nullptr,
-	nullptr,
+	InterfaceParams,
 	UE_ARRAY_COUNT(DependentSingletons),
 	UE_ARRAY_COUNT(FuncInfo),
 	0,
-	0,
+	UE_ARRAY_COUNT(InterfaceParams),
 	0x009001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AAHingeDoor_Statics::Class_MetaDataParams), Z_Construct_UClass_AAHingeDoor_Statics::Class_MetaDataParams)
 };
@@ -248,10 +253,10 @@ AAHingeDoor::~AAHingeDoor() {}
 struct Z_CompiledInDeferFile_FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h__Script_SpookyGame2025_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AAHingeDoor, AAHingeDoor::StaticClass, TEXT("AAHingeDoor"), &Z_Registration_Info_UClass_AAHingeDoor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAHingeDoor), 2633889934U) },
+		{ Z_Construct_UClass_AAHingeDoor, AAHingeDoor::StaticClass, TEXT("AAHingeDoor"), &Z_Registration_Info_UClass_AAHingeDoor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAHingeDoor), 2511891443U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h__Script_SpookyGame2025_1515439708(TEXT("/Script/SpookyGame2025"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h__Script_SpookyGame2025_1081079579(TEXT("/Script/SpookyGame2025"),
 	Z_CompiledInDeferFile_FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h__Script_SpookyGame2025_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_kdngc_OneDrive_Documents_HW_1953_CIS1953_FinalProject_SpookyGame2025_Source_SpookyGame2025_AHingeDoor_h__Script_SpookyGame2025_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

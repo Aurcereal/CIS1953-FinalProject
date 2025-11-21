@@ -11,6 +11,7 @@
     <None Include="..\..\Source\SpookyGame2025Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -32,10 +33,22 @@
     <Filter Include="Source\SpookyGame2025">
       <UniqueIdentifier>{E7067B01-DC0D-3019-B131-66E777138CFD}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\SpookyGame2025\AHingeDoor.cpp">
+      <Filter>Source\SpookyGame2025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpookyGame2025\AHingeDoor.h">
+      <Filter>Source\SpookyGame2025</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\SpookyGame2025\Dummy.cpp">
       <Filter>Source\SpookyGame2025</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\SpookyGame2025\Dummy.h">
+      <Filter>Source\SpookyGame2025</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpookyGame2025\Interactable.cpp">
+      <Filter>Source\SpookyGame2025</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpookyGame2025\Interactable.h">
       <Filter>Source\SpookyGame2025</Filter>
     </ClInclude>
     <None Include="..\..\Source\SpookyGame2025\SpookyGame2025.Build.cs">

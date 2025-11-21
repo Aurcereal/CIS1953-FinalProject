@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpookyGame2025ModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7568b0f6b6510988b8762b1ad20cf1786bbe80a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e254f4a20b8dd6ef32c5299aeb128aa740bc0425")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpookyGame2025ModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpookyGame2025ModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
